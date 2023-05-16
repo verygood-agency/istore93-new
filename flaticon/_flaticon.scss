@@ -1,0 +1,88 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/01/2021 21:06
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-cross:before { content: "\f100"; }
+.flaticon-instagram:before { content: "\f101"; }
+.flaticon-facebook:before { content: "\f102"; }
+.flaticon-vk:before { content: "\f103"; }
+.flaticon-odnoklassniki-logo:before { content: "\f104"; }
+.flaticon-twitter:before { content: "\f105"; }
+.flaticon-mail:before { content: "\f106"; }
+.flaticon-whatsapp:before { content: "\f107"; }
+.flaticon-heart:before { content: "\f108"; }
+.flaticon-like:before { content: "\f109"; }
+.flaticon-bag:before { content: "\f10a"; }
+.flaticon-user:before { content: "\f10b"; }
+.flaticon-search-interface-symbol:before { content: "\f10c"; }
+.flaticon-searching:before { content: "\f10d"; }
+.flaticon-next:before { content: "\f10e"; }
+.flaticon-back:before { content: "\f10f"; }
+.flaticon-up-arrow:before { content: "\f110"; }
+.flaticon-download:before { content: "\f111"; }
+.flaticon-resize:before { content: "\f112"; }
+.flaticon-diagonal-arrow:before { content: "\f113"; }
+.flaticon-diagonal-arrow-1:before { content: "\f114"; }
+.flaticon-taxi:before { content: "\f115"; }
+.flaticon-shopping-store:before { content: "\f116"; }
+.flaticon-courier:before { content: "\f117"; }
+    
+    $font-Flaticon-cross: "\f100";
+    $font-Flaticon-instagram: "\f101";
+    $font-Flaticon-facebook: "\f102";
+    $font-Flaticon-vk: "\f103";
+    $font-Flaticon-odnoklassniki-logo: "\f104";
+    $font-Flaticon-twitter: "\f105";
+    $font-Flaticon-mail: "\f106";
+    $font-Flaticon-whatsapp: "\f107";
+    $font-Flaticon-heart: "\f108";
+    $font-Flaticon-like: "\f109";
+    $font-Flaticon-bag: "\f10a";
+    $font-Flaticon-user: "\f10b";
+    $font-Flaticon-search-interface-symbol: "\f10c";
+    $font-Flaticon-searching: "\f10d";
+    $font-Flaticon-next: "\f10e";
+    $font-Flaticon-back: "\f10f";
+    $font-Flaticon-up-arrow: "\f110";
+    $font-Flaticon-download: "\f111";
+    $font-Flaticon-resize: "\f112";
+    $font-Flaticon-diagonal-arrow: "\f113";
+    $font-Flaticon-diagonal-arrow-1: "\f114";
+    $font-Flaticon-taxi: "\f115";
+    $font-Flaticon-shopping-store: "\f116";
+    $font-Flaticon-courier: "\f117";

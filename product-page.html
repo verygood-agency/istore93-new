@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon">
+
+  <title>Страница товара</title>
+  <link rel="stylesheet" media="all" href="./css/old-style.css">
+  <link rel="stylesheet" media="all" href="./libs/normalize.min.css">
+  <link rel="stylesheet" media="all" href="./css/style.css">
+
+
+</head>
+
+<body>
+  <!-- Шапка  -->
+
+  <header class="header">
+
+    <div class="header--top">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 col-md-3 col-lg-2">
+            <div class="logo logo--header">
+              <a href="./index.html">
+                <img src="./img/logo.svg" alt="iStore93">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-10 d-none d-lg-block">
+            <div class="region region-secondary-menu">
+              <nav role="navigation" aria-labelledby="block-secondary-menu-menu" id="block-secondary-menu"
+                class="block block-menu navigation menu--secondary">
+                <ul class="menu">
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">О компании</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Гарантия</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Оплата</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Доставка</a>
+                  </li>
+
+                  <li class="menu__item">
+                    <a class="menu__link" href="https://istore93.ru/service" title="Услуги iStore93">Услуги</a>
+                    <ul class="list-reset submenu">
+                      <li><a href="#">Гравировка</a></li>
+                      <li><a href="#">Установка ПО и приложений</a></li>
+                      <li><a href="#">Ремонт</a></li>
+                      <li><a href="#">Trade-in</a></li>
+                      <li><a href="#">Подарочный сертификат</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+            <a class="phone" href="tel:+79182410241" rel="nofollow">
+              +7 (918) 241-0-241
+            </a>
+          </div>
+          <div class="col-7 col-md-9 d-block d-lg-none">
+            <a class="phone" href="tel:+79182410241" rel="nofollow">
+              +7 (918) 241-0-241
+            </a>
+            <p class="text-end">
+              ежедневно с 10:00 до 20:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header--bottom d-none d-lg-flex">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <div class="region region-main-menu">
+              <nav role="navigation" aria-labelledby="block-main-menu-menu" id="block-main-menu"
+                class="block block-menu menu--main">
+
+                <ul class="menu">
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-1">
+                    <a class="main-nav__link" href="#">iPhone </a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-2">
+                    <a class="main-nav__link" href="#" title="Apple Mac">Mac</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-3">
+                    <a class="main-nav__link" href="#" title="Apple Watch">Watch</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-4">
+                    <a class="main-nav__link" href="#">iPad</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-5">
+                    <a class="main-nav__link" href="#">TV</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-6">
+                    <a class="main-nav__link" href="#">Аксессуары</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-7">
+                    <a class="main-nav__link" href="#">Гаджеты</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="#">Акции</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-auto">
+            <div class="region region-user-menu">
+              <nav role="navigation" aria-labelledby="block-user-menu-header-menu" id="block-user-menu-header"
+                class="block block-menu navigation menu--user-menu-header">
+
+                <h2 class="visually-hidden" id="block-user-menu-header-menu">Меню пользователя шапка</h2>
+
+
+
+
+                <ul class="menu">
+                  <li>
+                    <button type="button" class="btn btn-menu-link" data-bs-toggle="modal"
+                      data-bs-target="#block-search" title="Поиск по сайту">
+                      <i class="flaticon-searching"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/user/login" title="Учетная запись">
+                      <i class="flaticon-user"></i>
+                    </a>
+                  </li>
+                </ul>
+
+
+              </nav>
+              <div id="block-cart" class="block block-commerce-cart">
+
+
+                <div class="cart--cart-block">
+                  <div class="cart-block--summary">
+                    <!-- корзина  -->
+                    <div class="btn btn-menu-link custom-header-cart">
+
+                      <a class="custom-header-cart__link" href="#"><i class="flaticon-bag"></i>
+                        <span class="cart-block--count count">1</span>
+                      </a>
+
+                        <div class="content">
+                          <div class="top">Корзина: <span>2</span></div>
+                          <ul class="list list-reset">
+                            <li class="item">
+                              <img src="./img/cart-header/1.png" alt="">
+                              <a href="#" class="name">iPhone 14 Pro Max 1 TB «Глубокий фиолетовый»</a>
+                              <div class="price">159 990 ₽</div>
+
+
+                              <button class="button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                  height="18" fill="none">
+                                  <path stroke="#000" stroke-width="2" d="m1 1 16 16M17 1 1 17" />
+                                </svg></button>
+                            </li>
+
+                            <li class="item">
+                              <img src="./img/cart-header/2.png" alt="">
+                              <a href="#" class="name">iPhone 14 Pro Max 1 TB «Глубокий фиолетовый»</a>
+                              <div class="price">159 990 ₽</div>
+
+                              <button class="button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                  height="18" fill="none">
+                                  <path stroke="#000" stroke-width="2" d="m1 1 16 16M17 1 1 17" />
+                                </svg></button>
+                            </li>
+                          </ul>
+
+                          <footer>
+                            <p class="all">Итого: 269 980 ₽</p>
+                            <a href="#" class="btn btn-pink">Оформить заказ</a>
+                          </footer>
+                        </div>
+
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="catalog-menu">
+      <div class="container">
+        <!-- группа меню iPhone -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-1">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">iPhone 14 Pro Max</a></li>
+                <li><a href="#">iPhone 14 Pro</a></li>
+                <li><a href="#">iPhone 14 Plus</a></li>
+                <li><a href="#">iPhone 14</a></li>
+                <li><a href="#">iPhone SE</a></li>
+                <li><a href="#">iPhone SE</a></li>
+                <li><a href="#">iPhone 13 Pro</a></li>
+                <li><a href="#">iPhone 13</a></li>
+                <li><a href="#">iPhone 12</a></li>
+                <li><a href="#">iPhone 11</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Mac -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-2">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">MacBook Pro 13 M2</a></li>
+                <li><a href="#">MacBook Air М2</a></li>
+                <li><a href="#">MacBook Pro 14"</a></li>
+                <li><a href="#">MacBook Pro 16″</a></li>
+                <li><a href="#">MacBook Pro 13″</a></li>
+                <li><a href="#">MacBook Air</a></li>
+                <li><a href="#">iMac 24”</a></li>
+                <li><a href="#">iMac</a></li>
+                <li><a href="#">iMac</a></li>
+                <li><a href="#">Mac Pro</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Watch -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-3">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">Apple Watch 8</a></li>
+                <li><a href="#">Apple Watch SE 2</a></li>
+                <li><a href="#">Apple Watch Ultra</a></li>
+                <li><a href="#">Apple Watch Series 7</a></li>
+                <li><a href="#">Apple Watch SE</a></li>
+                <li><a href="#">Apple Watch Nike</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню iPad -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-4">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">iPad Pro</a></li>
+                <li><a href="#">iPad Air</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPad mini</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/1.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/2.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/3.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/4.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню TV -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-5">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">Apple TV 4K</a></li>
+                <li><a href="#">Apple TV HD</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Аксессуары -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-6">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">для iPhone</a></li>
+                <li><a href="#">для Apple Watch</a></li>
+                <li><a href="#">для iPad</a></li>
+                <li><a href="#">для Mac</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- гаджеты  -->
+        <!-- группа меню Аксессуары -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-7">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">для iPhone</a></li>
+                <li><a href="#">для Apple Watch</a></li>
+                <li><a href="#">для iPad</a></li>
+                <li><a href="#">для Mac</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </header>
+  <!-- КОНЕЦ Шапка  -->
+  <!-- мобильное меню  -->
+  <div class="cust-mobile-nav">
+    <nav role="navigation" aria-labelledby="block-main-menu-mobile-menu" id="block-main-menu-mobile"
+      class="navbar fixed-bottom navbar-light menu--mobile-main-menu">
+      <div class="container-fluid p-0">
+
+        <ul class="menu">
+          <li>
+            <a href="./index.html" title="Главная">
+              <i class="flaticon-home"></i>
+              <span>Главная</span>
+            </a>
+          </li>
+          <li>
+            <a data-bs-toggle="offcanvas" href="#block-secondary-mobile-menu" role="button"
+              aria-controls="block-secondary-mobile-menu">
+              <i class="flaticon-coupon"></i>
+              <span>Магазин</span>
+            </a>
+          </li>
+          <li>
+            <a data-bs-toggle="offcanvas" href="#block-catalog-equipment" role="button"
+              aria-controls="block-catalog-equipment">
+              <i class="flaticon-search"></i>
+              <span>Каталог</span>
+            </a>
+          </li>
+          <li>
+            <a href="/cart" title="Корзина">
+              <i class="flaticon-bag"></i>
+              <span>Корзина</span>
+              <span class="cart--count"></span>
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+    </nav>
+  </div>
+  <!-- конец мобильное меню  -->
+
+  <main>
+
+    <div class="breadcrumbs section">
+      <div class="container">
+        <div id="block-istore-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+          <div aria-label="breadcrumb">
+            <h2 id="system-breadcrumb" class="visually-hidden">Строка навигации</h2>
+            <ul class="breadcrumb list-reset">
+              <li class="breadcrumb-item">
+                <a href="./index.html">Главная</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="product-page">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-9 order-last order-xl-first">
+            <div
+              class="view view-catalog-iphone view-id-catalog_iphone view-display-id-page_child js-view-dom-id-96360a9d03b42de2a99a199c7a268e706c14ae055d6ed8b4d78bd343a10736b4">
+
+
+              <div class="row">
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1850" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Серебристый">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Серебристый
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC33">MQC33</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1849" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Золотой">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Золотой
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC43">MQC43</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1848" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max 128 ГБ «Космический черный»">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB «Космический черный»
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC23">MQC23</div>
+
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1850" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Серебристый">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Серебристый
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC33">MQC33</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1849" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Золотой">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Золотой
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC43">MQC43</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1848" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max 128 ГБ «Космический черный»">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB «Космический черный»
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC23">MQC23</div>
+
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1850" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Серебристый">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Серебристый
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC33">MQC33</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1849" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Золотой">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Золотой
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC43">MQC43</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1848" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max 128 ГБ «Космический черный»">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB «Космический черный»
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC23">MQC23</div>
+
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1850" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Серебристый">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Серебристый
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC33">MQC33</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1849" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max, Золотой">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB Золотой
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC43">MQC43</div>
+
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card--catalog">
+                  <div
+                    class="commerce-product-variation commerce-product-variation--iphone commerce-product-variation--teaser stock--in">
+                    <span class="stock--in"></span>
+                    <a href="/iphone/iphone-14-pro/iphone-14-pro?v=1848" class="field--image-link" hreflang="ru"><img
+                        class="img-fluid" src="./img/iphone-14-pro-finish-select-202209-6-7inch-spaceblack.jpg"
+                        width="500" height="500" alt="iPhone 14 Pro Max 128 ГБ «Космический черный»">
+
+                    </a>
+
+                    <div class="field field--product-variation-title">
+                      <span>
+                        iPhone 14 Pro Max 1 TB «Космический черный»
+                      </span>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-12">
+                        <div class="field field--name-price field--type-commerce-price field--label-hidden field__item">
+                          164&nbsp;990&nbsp;₽</div>
+
+                      </div>
+                    </div>
+                    <div id="elemProdSku"
+                      class="field field--name-sku field--type-string field--label-hidden field__item"
+                      data-product-sku="MQC23">MQC23</div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+          <div class="col-xl-3 order-first order-xl-last d-none d-xl-block">
+            <div class="region region-sidebar-filtr">
+              <div id="block-facets-block-iphone-child" class="block block-facets-block">
+
+
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_model_child" aria-expanded="true" aria-controls="iphone_model_child">
+                    <span class="search-facet--title">Серия</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_model_child">
+                    <ul data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=model%3A241" rel="nofollow"
+                          data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model" class="nav-link">
+                          <span class="facet-item--value">iPhone 14 Pro Max</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=model%3A242" rel="nofollow"
+                          data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model" class="nav-link">
+                          <span class="facet-item--value">iPhone 14 Pro</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_color_child" aria-expanded="true" aria-controls="iphone_color_child">
+                    <span class="search-facet--title">Цвет</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_color_child">
+                    <ul data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A13" rel="nofollow"
+                          data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color" class="nav-link">
+                          <span class="facet-item--value">Золотой</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A15" rel="nofollow"
+                          data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color" class="nav-link">
+                          <span class="facet-item--value">Серебристый</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A245" rel="nofollow"
+                          data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color" class="nav-link">
+                          <span class="facet-item--value">«Глубокий фиолетовый»</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A247" rel="nofollow"
+                          data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color" class="nav-link">
+                          <span class="facet-item--value">«Космический черный»</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_screen_child" aria-expanded="true" aria-controls="iphone_screen_child">
+                    <span class="search-facet--title">Диагональ экрана</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_screen_child" style="">
+                    <ul data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=screen%3A116" rel="nofollow"
+                          data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen" class="nav-link">
+                          <span class="facet-item--value">6,1"</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=screen%3A117" rel="nofollow"
+                          data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen" class="nav-link">
+                          <span class="facet-item--value">6,7"</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_memory_child" aria-expanded="true" aria-controls="iphone_memory_child">
+                    <span class="search-facet--title">Память</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_memory_child" style="">
+                    <ul data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A24" rel="nofollow"
+                          data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory" class="nav-link">
+                          <span class="facet-item--value">128 ГБ</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A25" rel="nofollow"
+                          data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory" class="nav-link">
+                          <span class="facet-item--value">256 ГБ</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A29" rel="nofollow"
+                          data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory" class="nav-link">
+                          <span class="facet-item--value">512 ГБ</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A97" rel="nofollow"
+                          data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory" class="nav-link">
+                          <span class="facet-item--value">1 ТБ</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_cameras_child" aria-expanded="true" aria-controls="iphone_cameras_child">
+                    <span class="search-facet--title">Количество камер</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_cameras_child">
+                    <ul data-drupal-facet-id="iphone_cameras_child" data-drupal-facet-alias="camera"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=camera%3A137" rel="nofollow"
+                          data-drupal-facet-id="iphone_cameras_child" data-drupal-facet-alias="camera" class="nav-link">
+                          <span class="facet-item--value">3 шт.</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_optical_child" aria-expanded="true" aria-controls="iphone_optical_child">
+                    <span class="search-facet--title">Диапазон оптического зума</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_optical_child">
+                    <ul data-drupal-facet-id="iphone_optical_child" data-drupal-facet-alias="optical"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=optical%3A146" rel="nofollow"
+                          data-drupal-facet-id="iphone_optical_child" data-drupal-facet-alias="optical"
+                          class="nav-link">
+                          <span class="facet-item--value">3x</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_unlock_child" aria-expanded="true" aria-controls="iphone_unlock_child">
+                    <span class="search-facet--title">Тип разблокировки</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_unlock_child">
+                    <ul data-drupal-facet-id="iphone_unlock_child" data-drupal-facet-alias="unlock"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=unlock%3A130" rel="nofollow"
+                          data-drupal-facet-id="iphone_unlock_child" data-drupal-facet-alias="unlock" class="nav-link">
+                          <span class="facet-item--value">Face ID</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_video_child" aria-expanded="true" aria-controls="iphone_video_child">
+                    <span class="search-facet--title">Воспроизведение видео</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_video_child">
+                    <ul data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A249" rel="nofollow"
+                          data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video" class="nav-link">
+                          <span class="facet-item--value">до 29 часов</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A246" rel="nofollow"
+                          data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video" class="nav-link">
+                          <span class="facet-item--value">до 23 часов</span>
+
+                        </a>
+                      </li>
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A213" rel="nofollow"
+                          data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video" class="nav-link">
+                          <span class="facet-item--value">до 22 часов</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_magsafe_child" aria-expanded="true" aria-controls="iphone_magsafe_child">
+                    <span class="search-facet--title">Поддержка MagSafe</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_magsafe_child">
+                    <ul data-drupal-facet-id="iphone_magsafe_child" data-drupal-facet-alias="magsafe"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=magsafe%3A131" rel="nofollow"
+                          data-drupal-facet-id="iphone_magsafe_child" data-drupal-facet-alias="magsafe"
+                          class="nav-link">
+                          <span class="facet-item--value">Поддержка MagSafe</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_protection_child" aria-expanded="true"
+                    aria-controls="iphone_protection_child">
+                    <span class="search-facet--title">Защита от воды</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_protection_child">
+                    <ul data-drupal-facet-id="iphone_protection_child" data-drupal-facet-alias="protection"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=protection%3A134" rel="nofollow"
+                          data-drupal-facet-id="iphone_protection_child" data-drupal-facet-alias="protection"
+                          class="nav-link">
+                          <span class="facet-item--value">до 30 минут при погружении до 6 метров</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-facet facets-widget-links">
+                  <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#iphone_certification_child" aria-expanded="true"
+                    aria-controls="iphone_certification_child">
+                    <span class="search-facet--title">Сертификация</span>
+                    <span class="btn-close"></span>
+                  </button>
+                  <div class="collapse show" id="iphone_certification_child">
+                    <ul data-drupal-facet-id="iphone_certification_child" data-drupal-facet-alias="certification"
+                      class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                      <li class="facet-item nav-item">
+                        <a href="/iphone/iphone-14-pro?f%5B0%5D=certification%3A248" rel="nofollow"
+                          data-drupal-facet-id="iphone_certification_child" data-drupal-facet-alias="certification"
+                          class="nav-link">
+                          <span class="facet-item--value">Global</span>
+
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-xl-3 order-first order-xl-last d-block d-xl-none">
+            <div class="sidebar-filtr">
+              <button class="btn btn-filtr" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiltr"
+                aria-expanded="false" aria-controls="collapseFiltr">
+                <span class="collapse--filtr">
+                  Фильтр
+                </span>
+                <i class="flaticon-menu"></i>
+              </button>
+              <div class="collapse" id="collapseFiltr">
+                <div class="region region-sidebar-filtr">
+                  <div id="block-facets-block-iphone-child" class="block block-facets-block">
+
+
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_model_child" aria-expanded="true" aria-controls="iphone_model_child">
+                        <span class="search-facet--title">Серия</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_model_child">
+                        <ul data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=model%3A241" rel="nofollow"
+                              data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model"
+                              class="nav-link">
+                              <span class="facet-item--value">iPhone 14 Pro Max</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=model%3A242" rel="nofollow"
+                              data-drupal-facet-id="iphone_model_child" data-drupal-facet-alias="model"
+                              class="nav-link">
+                              <span class="facet-item--value">iPhone 14 Pro</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_color_child" aria-expanded="true" aria-controls="iphone_color_child">
+                        <span class="search-facet--title">Цвет</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_color_child">
+                        <ul data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A13" rel="nofollow"
+                              data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                              class="nav-link">
+                              <span class="facet-item--value">Золотой</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A15" rel="nofollow"
+                              data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                              class="nav-link">
+                              <span class="facet-item--value">Серебристый</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A245" rel="nofollow"
+                              data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                              class="nav-link">
+                              <span class="facet-item--value">«Глубокий фиолетовый»</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=color%3A247" rel="nofollow"
+                              data-drupal-facet-id="iphone_color_child" data-drupal-facet-alias="color"
+                              class="nav-link">
+                              <span class="facet-item--value">«Космический черный»</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_screen_child" aria-expanded="true" aria-controls="iphone_screen_child">
+                        <span class="search-facet--title">Диагональ экрана</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_screen_child" style="">
+                        <ul data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=screen%3A116" rel="nofollow"
+                              data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen"
+                              class="nav-link">
+                              <span class="facet-item--value">6,1"</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=screen%3A117" rel="nofollow"
+                              data-drupal-facet-id="iphone_screen_child" data-drupal-facet-alias="screen"
+                              class="nav-link">
+                              <span class="facet-item--value">6,7"</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_memory_child" aria-expanded="true" aria-controls="iphone_memory_child">
+                        <span class="search-facet--title">Память</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_memory_child" style="">
+                        <ul data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A24" rel="nofollow"
+                              data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                              class="nav-link">
+                              <span class="facet-item--value">128 ГБ</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A25" rel="nofollow"
+                              data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                              class="nav-link">
+                              <span class="facet-item--value">256 ГБ</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A29" rel="nofollow"
+                              data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                              class="nav-link">
+                              <span class="facet-item--value">512 ГБ</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=memory%3A97" rel="nofollow"
+                              data-drupal-facet-id="iphone_memory_child" data-drupal-facet-alias="memory"
+                              class="nav-link">
+                              <span class="facet-item--value">1 ТБ</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_cameras_child" aria-expanded="true"
+                        aria-controls="iphone_cameras_child">
+                        <span class="search-facet--title">Количество камер</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_cameras_child">
+                        <ul data-drupal-facet-id="iphone_cameras_child" data-drupal-facet-alias="camera"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=camera%3A137" rel="nofollow"
+                              data-drupal-facet-id="iphone_cameras_child" data-drupal-facet-alias="camera"
+                              class="nav-link">
+                              <span class="facet-item--value">3 шт.</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_optical_child" aria-expanded="true"
+                        aria-controls="iphone_optical_child">
+                        <span class="search-facet--title">Диапазон оптического зума</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_optical_child">
+                        <ul data-drupal-facet-id="iphone_optical_child" data-drupal-facet-alias="optical"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=optical%3A146" rel="nofollow"
+                              data-drupal-facet-id="iphone_optical_child" data-drupal-facet-alias="optical"
+                              class="nav-link">
+                              <span class="facet-item--value">3x</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_unlock_child" aria-expanded="true" aria-controls="iphone_unlock_child">
+                        <span class="search-facet--title">Тип разблокировки</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_unlock_child">
+                        <ul data-drupal-facet-id="iphone_unlock_child" data-drupal-facet-alias="unlock"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=unlock%3A130" rel="nofollow"
+                              data-drupal-facet-id="iphone_unlock_child" data-drupal-facet-alias="unlock"
+                              class="nav-link">
+                              <span class="facet-item--value">Face ID</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_video_child" aria-expanded="true" aria-controls="iphone_video_child">
+                        <span class="search-facet--title">Воспроизведение видео</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_video_child">
+                        <ul data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A249" rel="nofollow"
+                              data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video"
+                              class="nav-link">
+                              <span class="facet-item--value">до 29 часов</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A246" rel="nofollow"
+                              data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video"
+                              class="nav-link">
+                              <span class="facet-item--value">до 23 часов</span>
+
+                            </a>
+                          </li>
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=video%3A213" rel="nofollow"
+                              data-drupal-facet-id="iphone_video_child" data-drupal-facet-alias="video"
+                              class="nav-link">
+                              <span class="facet-item--value">до 22 часов</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_magsafe_child" aria-expanded="true"
+                        aria-controls="iphone_magsafe_child">
+                        <span class="search-facet--title">Поддержка MagSafe</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_magsafe_child">
+                        <ul data-drupal-facet-id="iphone_magsafe_child" data-drupal-facet-alias="magsafe"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=magsafe%3A131" rel="nofollow"
+                              data-drupal-facet-id="iphone_magsafe_child" data-drupal-facet-alias="magsafe"
+                              class="nav-link">
+                              <span class="facet-item--value">Поддержка MagSafe</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_protection_child" aria-expanded="true"
+                        aria-controls="iphone_protection_child">
+                        <span class="search-facet--title">Защита от воды</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_protection_child">
+                        <ul data-drupal-facet-id="iphone_protection_child" data-drupal-facet-alias="protection"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=protection%3A134" rel="nofollow"
+                              data-drupal-facet-id="iphone_protection_child" data-drupal-facet-alias="protection"
+                              class="nav-link">
+                              <span class="facet-item--value">до 30 минут при погружении до 6 метров</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="search-facet facets-widget-links">
+                      <button class="btn btn-search-facet" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#iphone_certification_child" aria-expanded="true"
+                        aria-controls="iphone_certification_child">
+                        <span class="search-facet--title">Сертификация</span>
+                        <span class="btn-close"></span>
+                      </button>
+                      <div class="collapse show" id="iphone_certification_child">
+                        <ul data-drupal-facet-id="iphone_certification_child" data-drupal-facet-alias="certification"
+                          class="facet-inactive js-facets-links nav flex-column item-list__links js-facets-widget">
+                          <li class="facet-item nav-item">
+                            <a href="/iphone/iphone-14-pro?f%5B0%5D=certification%3A248" rel="nofollow"
+                              data-drupal-facet-id="iphone_certification_child" data-drupal-facet-alias="certification"
+                              class="nav-link">
+                              <span class="facet-item--value">Global</span>
+
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer--top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-first">
+              <nav role="navigation" aria-labelledby="block-main-menu-footer-menu" id="block-main-menu-footer"
+                class="block block-menu menu--main">
+
+                <h4 id="block-main-menu-footer-menu">Выбирайте лучшее</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="#">iPhone </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Apple Mac">Mac</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/apple-watch" title="Apple Watch">Watch</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/ipad/ipad-pro">iPad</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/apple-tv">TV</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/accessories">Аксессуары</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-second">
+              <nav role="navigation" aria-labelledby="block-services-menu-footer-menu" id="block-services-menu-footer"
+                class="block block-menu menu--services">
+
+                <h4 id="block-services-menu-footer-menu">Услуги</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="https://istore93.ru/service/rassrochka-i-kredit">Рассрочка и кредит</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/service/kommercheskaya-zamena">Коммерческая замена</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/service/servisnyy-centr">Сервисный центр</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-third">
+              <nav role="navigation" aria-labelledby="block-menu-footer-menu" id="block-menu-footer"
+                class="block block-menu menu--footer">
+
+                <h4 id="block-menu-footer-menu">iStore</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="https://istore93.ru/about">О компании</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/stock">Акции</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/news">Новости</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/warranty">Гарантия</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/delivery">Доставка и
+                      оплата</a>
+                  </li>
+                  <li>
+                    <a href="#">Контакт</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/privacy-policy">Политика
+                      конфиденциальности</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <h4>Контактная информация</h4>
+            <address>
+              <p>
+                <a href="tel:+79182410241" rel="nofollow">
+                  +7 (918) 241-0-241
+                </a>
+              </p>
+              <p>
+                <a href="mailto:infoistore93@gmail.com" rel="nofollow">
+                  infoistore93@gmail.com
+                </a>
+              </p>
+              <p>
+                г. Краснодар, ул. Северная, 624
+              </p>
+              <p>
+                ежедневно с 10:00 до 20:00
+              </p>
+            </address>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="logo logo--footer">
+              <img src="./img/logo-footer.svg" alt="iStore93">
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            Все самое интересное<br>в наших соц сетях
+            <ul class="social-icons social-icons--footer">
+              <li>
+                <a rel="nofollow" href="https://www.instagram.com/istore93/" target="_blank">
+                  <i class="flaticon-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a rel="nofollow" href="https://www.facebook.com/groups/istore93/" target="_blank">
+                  <i class="flaticon-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a rel="nofollow" href="https://vk.com/istore93krd" target="_blank">
+                  <i class="flaticon-vk"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <p><small>Все материалы данного сайта являются объектами авторского права (в том числе дизайн)
+                запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в
+                Интернете) или любое иное использование информации или объектов без предварительного согласия
+                правообладателя.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer--bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9">
+            <p class="text-center text-lg-start">
+              Все права защищены и охраняются законом. 2011-2023 © iStore93
+            </p>
+          </div>
+          <!-- <div class="col-lg-3">
+            <a class="copyright-studio" rel="nofollow" href="https://www.asb-studio.ru/" target="_blank">
+              <span>сделано в</span>
+              <img alt="ASB Studio" title="ASB Studio" src="./img/asb.svg" style="height: 1.5rem;">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="region region-search-form">
+      <div
+        class="views-exposed-form block block-search-page block-views block-views-exposed-filter-blocksearch-page modal fade"
+        data-drupal-selector="views-exposed-form-search-page" id="block-search" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Поиск по сайту
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="https://istore93.ru/search" method="get" id="views-exposed-form-search-page"
+                accept-charset="UTF-8">
+                <div class="form--inline clearfix">
+                  <div class="js-form-item js-form-type-search-api-autocomplete form-item-search js-form-item-search">
+                    <label for="edit-search" class="form-label">
+                      Поиск
+                    </label>
+                    <input placeholder="Поиск по сайту" data-drupal-selector="edit-search" type="text" id="edit-search"
+                      name="search" value="" size="30" maxlength="128" class="form-control">
+
+                  </div>
+                  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper"
+                    id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit"
+                      id="edit-submit-search" value="Поиск" class="js-form-submit form-submit btn">
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="./js/1.js"></script>
+  <script src="./js/2.js"></script>
+  <script src="./js/3.js"></script>
+
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

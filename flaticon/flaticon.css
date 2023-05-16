@@ -1,0 +1,418 @@
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?4db2315c3f438d744f46cbaf02522e54") format("truetype"), url("./flaticon.woff?4db2315c3f438d744f46cbaf02522e54") format("woff"), url("./flaticon.woff2?4db2315c3f438d744f46cbaf02522e54") format("woff2"), url("./flaticon.eot?4db2315c3f438d744f46cbaf02522e54#iefix") format("embedded-opentype"), url("./flaticon.svg?4db2315c3f438d744f46cbaf02522e54#flaticon") format("svg");
+}
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cross:before {
+  content: "\f101";
+}
+
+.flaticon-instagram:before {
+  content: "\f102";
+}
+
+.flaticon-facebook:before {
+  content: "\f103";
+}
+
+.flaticon-vk:before {
+  content: "\f104";
+}
+
+.flaticon-odnoklassniki-logo:before {
+  content: "\f105";
+}
+
+.flaticon-twitter:before {
+  content: "\f106";
+}
+
+.flaticon-mail:before {
+  content: "\f107";
+}
+
+.flaticon-whatsapp:before {
+  content: "\f108";
+}
+
+.flaticon-heart:before {
+  content: "\f109";
+}
+
+.flaticon-like:before {
+  content: "\f10a";
+}
+
+.flaticon-bag:before {
+  content: "\f10b";
+}
+
+.flaticon-user:before {
+  content: "\f10c";
+}
+
+.flaticon-search-interface-symbol:before {
+  content: "\f10d";
+}
+
+.flaticon-searching:before {
+  content: "\f10e";
+}
+
+.flaticon-next:before {
+  content: "\f10f";
+}
+
+.flaticon-back:before {
+  content: "\f110";
+}
+
+.flaticon-up-arrow:before {
+  content: "\f111";
+}
+
+.flaticon-download:before {
+  content: "\f112";
+}
+
+.flaticon-resize:before {
+  content: "\f113";
+}
+
+.flaticon-diagonal-arrow:before {
+  content: "\f114";
+}
+
+.flaticon-diagonal-arrow-1:before {
+  content: "\f115";
+}
+
+.flaticon-taxi:before {
+  content: "\f116";
+}
+
+.flaticon-shopping-store:before {
+  content: "\f117";
+}
+
+.flaticon-courier:before {
+  content: "\f118";
+}
+
+.flaticon-box:before {
+  content: "\f119";
+}
+
+.flaticon-wallet:before {
+  content: "\f11a";
+}
+
+.flaticon-discount-voucher:before {
+  content: "\f11b";
+}
+
+.flaticon-conversation:before {
+  content: "\f11c";
+}
+
+.flaticon-open-box:before {
+  content: "\f11d";
+}
+
+.flaticon-delivery-box:before {
+  content: "\f11e";
+}
+
+.flaticon-home:before {
+  content: "\f11f";
+}
+
+.flaticon-search:before {
+  content: "\f120";
+}
+
+.flaticon-discount-voucher-1:before {
+  content: "\f121";
+}
+
+.flaticon-coupon:before {
+  content: "\f122";
+}
+
+.flaticon-information:before {
+  content: "\f123";
+}
+
+.flaticon-website:before {
+  content: "\f124";
+}
+
+.flaticon-add-circular-outlined-button:before {
+  content: "\f125";
+}
+
+.flaticon-cancel:before {
+  content: "\f126";
+}
+
+.flaticon-checked:before {
+  content: "\f127";
+}
+
+.flaticon-settings:before {
+  content: "\f128";
+}
+
+.flaticon-menu:before {
+  content: "\f129";
+}
+
+.flaticon-list:before {
+  content: "\f12a";
+}
+
+.flaticon-menu-1:before {
+  content: "\f12b";
+}
+
+.flaticon-menu-2:before {
+  content: "\f12c";
+}
+
+.flaticon-more:before {
+  content: "\f12d";
+}
+
+.flaticon-more-1:before {
+  content: "\f12e";
+}
+
+.flaticon-download-1:before {
+  content: "\f12f";
+}
+
+.flaticon-back-1:before {
+  content: "\f130";
+}
+
+.flaticon-upload:before {
+  content: "\f131";
+}
+
+.flaticon-next-1:before {
+  content: "\f132";
+}
+
+.flaticon-checked-1:before {
+  content: "\f133";
+}
+
+.flaticon-cancel-1:before {
+  content: "\f134";
+}
+
+.flaticon-double-arrow:before {
+  content: "\f135";
+}
+
+.flaticon-checked-2:before {
+  content: "\f136";
+}
+
+.flaticon-back-2:before {
+  content: "\f137";
+}
+
+.flaticon-next-2:before {
+  content: "\f138";
+}
+
+.flaticon-upload-1:before {
+  content: "\f139";
+}
+
+.flaticon-download-2:before {
+  content: "\f13a";
+}
+
+.flaticon-upload-2:before {
+  content: "\f13b";
+}
+
+.flaticon-next-3:before {
+  content: "\f13c";
+}
+
+.flaticon-previous:before {
+  content: "\f13d";
+}
+
+.flaticon-download-3:before {
+  content: "\f13e";
+}
+
+.flaticon-next-4:before {
+  content: "\f13f";
+}
+
+.flaticon-back-3:before {
+  content: "\f140";
+}
+
+.flaticon-back-4:before {
+  content: "\f141";
+}
+
+.flaticon-next-5:before {
+  content: "\f142";
+}
+
+.flaticon-diagonal-arrow-2:before {
+  content: "\f143";
+}
+
+.flaticon-curved-arrow:before {
+  content: "\f144";
+}
+
+.flaticon-curved-arrow-1:before {
+  content: "\f145";
+}
+
+.flaticon-curved-arrow-2:before {
+  content: "\f146";
+}
+
+.flaticon-curved-arrow-3:before {
+  content: "\f147";
+}
+
+.flaticon-repeat:before {
+  content: "\f148";
+}
+
+.flaticon-back-5:before {
+  content: "\f149";
+}
+
+.flaticon-next-6:before {
+  content: "\f14a";
+}
+
+.flaticon-cancel-2:before {
+  content: "\f14b";
+}
+
+.flaticon-download-4:before {
+  content: "\f14c";
+}
+
+.flaticon-download-5:before {
+  content: "\f14d";
+}
+
+.flaticon-fast-forward:before {
+  content: "\f14e";
+}
+
+.flaticon-next-7:before {
+  content: "\f14f";
+}
+
+.flaticon-back-6:before {
+  content: "\f150";
+}
+
+.flaticon-check:before {
+  content: "\f151";
+}
+
+.flaticon-login:before {
+  content: "\f152";
+}
+
+.flaticon-previous-1:before {
+  content: "\f153";
+}
+
+.flaticon-upload-3:before {
+  content: "\f154";
+}
+
+.flaticon-fullscreen:before {
+  content: "\f155";
+}
+
+.flaticon-sort:before {
+  content: "\f156";
+}
+
+.flaticon-upload-4:before {
+  content: "\f157";
+}
+
+.flaticon-next-8:before {
+  content: "\f158";
+}
+
+.flaticon-download-6:before {
+  content: "\f159";
+}
+
+.flaticon-logout:before {
+  content: "\f15a";
+}
+
+.flaticon-menu-3:before {
+  content: "\f15b";
+}
+
+.flaticon-fullscreen-1:before {
+  content: "\f15c";
+}
+
+.flaticon-shuffle:before {
+  content: "\f15d";
+}
+
+.flaticon-export:before {
+  content: "\f15e";
+}
+
+.flaticon-double-chevron:before {
+  content: "\f15f";
+}
+
+.flaticon-repeat-1:before {
+  content: "\f160";
+}
+
+.flaticon-diagonal-arrow-3:before {
+  content: "\f161";
+}
+
+.flaticon-resize-1:before {
+  content: "\f162";
+}
+
+.flaticon-upload-5:before {
+  content: "\f163";
+}
+
+.flaticon-fullscreen-2:before {
+  content: "\f164";
+}
+
+.flaticon-rewind:before {
+  content: "\f165";
+}

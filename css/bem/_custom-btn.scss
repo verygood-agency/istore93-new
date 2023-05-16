@@ -1,0 +1,50 @@
+.btn.btn-pink {
+  color: #FFFFFF;
+  background-color: #EC008C;
+  border-color: #EC008C;
+}
+
+.btn.btn-pink:hover,.btn.btn-pink:active {
+  color: #FFFFFF;
+  background-color: #F24FAF;
+  border-color: #F24FAF;
+}
+
+.btn.btn-pink:focus {
+  color: #FFFFFF;
+  background-color: #F67FC5;
+  border-color: #F67FC5;
+  box-shadow: none;
+}
+
+.btn.btn-dark {
+  color: #FFFFFF;
+  background-color: #131313;
+  border-color: #131313;
+}
+
+.btn.btn-dark:hover,.btn.btn-dark:active {
+  color: #FFFFFF;
+  background-color: #404040;
+  border-color: #404040;
+}
+
+.btn.btn-dark:focus {
+  color: #FFFFFF;
+  background-color: #5A5A5A;
+  border-color: #5A5A5A;
+  box-shadow: none;
+}
+
+.form-check-input:checked[type=checkbox] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e")
+}
+
+.form-check-input:checked {
+  background-color: #EC008C;
+  border-color: #EC008C;
+}
+
+.cart--cart-block .btn.btn-menu-link span {
+  color: #ffffff;
+}

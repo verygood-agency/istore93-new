@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon">
+
+  <title>Статья</title>
+  <link rel="stylesheet" media="all" href="./css/old-style.css">
+
+  <link rel="stylesheet" media="all" href="./libs/normalize.min.css">
+  <link rel="stylesheet" media="all" href="./css/style.css">
+
+
+</head>
+
+<body>
+  <!-- Шапка  -->
+
+  <header class="header">
+
+    <div class="header--top">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 col-md-3 col-lg-2">
+            <div class="logo logo--header">
+              <a href="./index.html">
+                <img src="./img/logo.svg" alt="iStore93">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-10 d-none d-lg-block">
+            <div class="region region-secondary-menu">
+              <nav role="navigation" aria-labelledby="block-secondary-menu-menu" id="block-secondary-menu"
+                class="block block-menu navigation menu--secondary">
+                <ul class="menu">
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">О компании</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Гарантия</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Оплата</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Доставка</a>
+                  </li>
+
+                  <li class="menu__item">
+                    <a class="menu__link" href="https://istore93.ru/service" title="Услуги iStore93">Услуги</a>
+                    <ul class="list-reset submenu">
+                      <li><a href="#">Гравировка</a></li>
+                      <li><a href="#">Установка ПО и приложений</a></li>
+                      <li><a href="#">Ремонт</a></li>
+                      <li><a href="#">Trade-in</a></li>
+                      <li><a href="#">Подарочный сертификат</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+            <a class="phone" href="tel:+79182410241" rel="nofollow">
+              +7 (918) 241-0-241
+            </a>
+          </div>
+          <div class="col-7 col-md-9 d-block d-lg-none">
+            <a class="phone" href="tel:+79182410241" rel="nofollow">
+              +7 (918) 241-0-241
+            </a>
+            <p class="text-end">
+              ежедневно с 10:00 до 20:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header--bottom d-none d-lg-flex">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <div class="region region-main-menu">
+              <nav role="navigation" aria-labelledby="block-main-menu-menu" id="block-main-menu"
+                class="block block-menu menu--main">
+
+                <ul class="menu">
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-1">
+                    <a class="main-nav__link" href="#">iPhone </a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-2">
+                    <a class="main-nav__link" href="#" title="Apple Mac">Mac</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-3">
+                    <a class="main-nav__link" href="#" title="Apple Watch">Watch</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-4">
+                    <a class="main-nav__link" href="#">iPad</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-5">
+                    <a class="main-nav__link" href="#">TV</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-6">
+                    <a class="main-nav__link" href="#">Аксессуары</a>
+                  </li>
+                  <li class="main-nav__item" data-target="#catalog-nav-subcategory-7">
+                    <a class="main-nav__link" href="#">Гаджеты</a>
+                  </li>
+                  <li class="main-nav__item">
+                    <a class="main-nav__link" href="#">Акции</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-auto">
+            <div class="region region-user-menu">
+              <nav role="navigation" aria-labelledby="block-user-menu-header-menu" id="block-user-menu-header"
+                class="block block-menu navigation menu--user-menu-header">
+
+                <h2 class="visually-hidden" id="block-user-menu-header-menu">Меню пользователя шапка</h2>
+
+
+
+
+                <ul class="menu">
+                  <li>
+                    <button type="button" class="btn btn-menu-link" data-bs-toggle="modal"
+                      data-bs-target="#block-search" title="Поиск по сайту">
+                      <i class="flaticon-searching"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/user/login" title="Учетная запись">
+                      <i class="flaticon-user"></i>
+                    </a>
+                  </li>
+                </ul>
+
+
+              </nav>
+              <div id="block-cart" class="block block-commerce-cart">
+
+
+                <div class="cart--cart-block">
+                  <div class="cart-block--summary">
+                    <!-- корзина  -->
+                    <div class="btn btn-menu-link custom-header-cart">
+
+                      <a class="custom-header-cart__link" href="#"><i class="flaticon-bag"></i>
+                        <span class="cart-block--count count">1</span>
+                      </a>
+
+                        <div class="content">
+                          <div class="top">Корзина: <span>2</span></div>
+                          <ul class="list list-reset">
+                            <li class="item">
+                              <img src="./img/cart-header/1.png" alt="">
+                              <a href="#" class="name">iPhone 14 Pro Max 1 TB «Глубокий фиолетовый»</a>
+                              <div class="price">159 990 ₽</div>
+
+
+                              <button class="button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                  height="18" fill="none">
+                                  <path stroke="#000" stroke-width="2" d="m1 1 16 16M17 1 1 17" />
+                                </svg></button>
+                            </li>
+
+                            <li class="item">
+                              <img src="./img/cart-header/2.png" alt="">
+                              <a href="#" class="name">iPhone 14 Pro Max 1 TB «Глубокий фиолетовый»</a>
+                              <div class="price">159 990 ₽</div>
+
+                              <button class="button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                  height="18" fill="none">
+                                  <path stroke="#000" stroke-width="2" d="m1 1 16 16M17 1 1 17" />
+                                </svg></button>
+                            </li>
+                          </ul>
+
+                          <footer>
+                            <p class="all">Итого: 269 980 ₽</p>
+                            <a href="#" class="btn btn-pink">Оформить заказ</a>
+                          </footer>
+                        </div>
+
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="catalog-menu">
+      <div class="container">
+        <!-- группа меню iPhone -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-1">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">iPhone 14 Pro Max</a></li>
+                <li><a href="#">iPhone 14 Pro</a></li>
+                <li><a href="#">iPhone 14 Plus</a></li>
+                <li><a href="#">iPhone 14</a></li>
+                <li><a href="#">iPhone SE</a></li>
+                <li><a href="#">iPhone SE</a></li>
+                <li><a href="#">iPhone 13 Pro</a></li>
+                <li><a href="#">iPhone 13</a></li>
+                <li><a href="#">iPhone 12</a></li>
+                <li><a href="#">iPhone 11</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Mac -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-2">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">MacBook Pro 13 M2</a></li>
+                <li><a href="#">MacBook Air М2</a></li>
+                <li><a href="#">MacBook Pro 14"</a></li>
+                <li><a href="#">MacBook Pro 16″</a></li>
+                <li><a href="#">MacBook Pro 13″</a></li>
+                <li><a href="#">MacBook Air</a></li>
+                <li><a href="#">iMac 24”</a></li>
+                <li><a href="#">iMac</a></li>
+                <li><a href="#">iMac</a></li>
+                <li><a href="#">Mac Pro</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/mac/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Watch -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-3">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">Apple Watch 8</a></li>
+                <li><a href="#">Apple Watch SE 2</a></li>
+                <li><a href="#">Apple Watch Ultra</a></li>
+                <li><a href="#">Apple Watch Series 7</a></li>
+                <li><a href="#">Apple Watch SE</a></li>
+                <li><a href="#">Apple Watch Nike</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/2.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/3.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/iwatch/4.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню iPad -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-4">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">iPad Pro</a></li>
+                <li><a href="#">iPad Air</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPad mini</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/1.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/2.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/3.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/ipad/4.jpeg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню TV -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-5">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">Apple TV 4K</a></li>
+                <li><a href="#">Apple TV HD</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/tv/1.jpg" alt="фото">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- группа меню Аксессуары -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-6">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">для iPhone</a></li>
+                <li><a href="#">для Apple Watch</a></li>
+                <li><a href="#">для iPad</a></li>
+                <li><a href="#">для Mac</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/acces/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- гаджеты  -->
+        <!-- группа меню Аксессуары -->
+        <div class="catalog-menu__group" id="catalog-nav-subcategory-7">
+          <div class="catalog-menu__grid">
+            <div class="catalog-menu__aside">
+
+              <ul class="list-reset catalog-menu__list">
+                <li><a href="#">для iPhone</a></li>
+                <li><a href="#">для Apple Watch</a></li>
+                <li><a href="#">для iPad</a></li>
+                <li><a href="#">для Mac</a></li>
+              </ul>
+
+              <ul class="list-reset catalog-menu__list catalog-menu__list--mod">
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">AirTag</a></li>
+                <li><a href="#">Аксессуары</a></li>
+              </ul>
+
+
+
+            </div>
+            <div class="catalog-menu__main">
+              <div class="catalog-menu__item-preview">
+                <ul class="list-reset">
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/1.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/2.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/3.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                  <li><a href="#">
+                      <img src="./img/catalog/preview/gadgets/4.jpg">
+                      <p>iPhone 14 Pro Max 1 TB Серебристый</p>
+                      <b>164 990 ₽</b>
+
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </header>
+  <!-- КОНЕЦ Шапка  -->
+  <!-- мобильное меню  -->
+  <div class="cust-mobile-nav">
+    <nav role="navigation" aria-labelledby="block-main-menu-mobile-menu" id="block-main-menu-mobile"
+      class="navbar fixed-bottom navbar-light menu--mobile-main-menu">
+      <div class="container-fluid p-0">
+
+        <ul class="menu">
+          <li>
+            <a href="./index.html" title="Главная">
+              <i class="flaticon-home"></i>
+              <span>Главная</span>
+            </a>
+          </li>
+          <li>
+            <a data-bs-toggle="offcanvas" href="#block-secondary-mobile-menu" role="button"
+              aria-controls="block-secondary-mobile-menu">
+              <i class="flaticon-coupon"></i>
+              <span>Магазин</span>
+            </a>
+          </li>
+          <li>
+            <a data-bs-toggle="offcanvas" href="#block-catalog-equipment" role="button"
+              aria-controls="block-catalog-equipment">
+              <i class="flaticon-search"></i>
+              <span>Каталог</span>
+            </a>
+          </li>
+          <li>
+            <a href="/cart" title="Корзина">
+              <i class="flaticon-bag"></i>
+              <span>Корзина</span>
+              <span class="cart--count"></span>
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+    </nav>
+  </div>
+  <!-- конец мобильное меню  -->
+
+  <main>
+
+    <div class="breadcrumbs section">
+      <div class="container">
+        <div id="block-istore-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+          <div aria-label="breadcrumb">
+            <ul class="breadcrumb list-reset">
+              <li class="breadcrumb-item">
+                <a href="./index.html">Главная</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#">Apple представляет iPhone 12 и iPhone 12 mini в свежем фиолетовом цвете</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="section">
+      <div class="container">
+
+        <h1 class="page-title"><span>Apple представляет iPhone 12 и iPhone 12 mini в свежем фиолетовом цвете</span></h1>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="page--content">
+              <article role="article" class="node node--type-news node--view-mode-full">
+
+                <div class="node__date">
+                  20 апреля 2021
+                </div>
+                <div class="node__summary">
+                  <p class="i-blockquote">
+                    Великолепный дизайн без закругления граней, продвинутая система двух камер, дисплей Super Retina
+                    XDR, передняя панель Ceramic Shield, процессор A14 Bionic и поддержка 5G. Это iPhone 12. Теперь и в
+                    свежем фиолетовом цвете.
+                  </p>
+                </div>
+                <div class="node__content clearfix">
+                  <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                    <div class="align-center media media--type-image media--view-mode-news-full">
+
+                      <div
+                        class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+                        <img
+                          src="./img/apple_iphone-12-spring21_purple_04202021_big.jpg.large_2x.jpg"
+                          width="915" height="555"
+                          alt="Apple представляет iPhone 12 и iPhone 12 mini в свежем фиолетовом цвете"></div>
+
+                    </div>
+                    <p>КУПЕРТИНО, КАЛИФОРНИЯ&nbsp;Сегодня компания Apple представила iPhone&nbsp;12
+                      и&nbsp;iPhone&nbsp;12&nbsp;mini в&nbsp;свежем и&nbsp;эффектном фиолетовом цвете. В&nbsp;таком
+                      варианте рамка из&nbsp;алюминия без&nbsp;закругления граней и&nbsp;тщательно обработанное стекло
+                      на&nbsp;задней панели смотрятся просто великолепно. Обе модели оснащены передовой системой двух
+                      камер, которые поддерживают мощные функции вычислительной фотографии и&nbsp;обеспечивают
+                      высочайшее качество видеосъёмки. У&nbsp;них OLED‑дисплей Super&nbsp;Retina&nbsp;XDR от&nbsp;края
+                      до&nbsp;края, на&nbsp;котором все изображения выглядят ещё более захватывающими и&nbsp;яркими,
+                      и&nbsp;передняя панель Ceramic&nbsp;Shield, которая гораздо лучше защищает устройство
+                      при&nbsp;падении. A14&nbsp;Bionic, самый быстрый процессор iPhone, значительно быстрее справляется
+                      с&nbsp;любой задачей и&nbsp;эффективно расходует заряд аккумулятора iPhone&nbsp;12. Кроме того,
+                      на&nbsp;iPhone&nbsp;12 доступны широчайшие возможности сетей&nbsp;5G и&nbsp;применяется новая
+                      технология MagSafe, которая не&nbsp;только обеспечивает быструю беспроводную зарядку,
+                      но&nbsp;и&nbsp;лежит в&nbsp;основе совершенно новой экосистемы аксессуаров, легко
+                      примагничивающихся к&nbsp;iPhone.</p>
+
+                    <p>iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini&nbsp;фиолетового цвета будут доступны
+                      для&nbsp;предзаказа начиная с&nbsp;пятницы, 23&nbsp;апреля. В&nbsp;продаже обе модели появятся
+                      в&nbsp;следующую пятницу, 30&nbsp;апреля. В&nbsp;дополнение к&nbsp;iPhone можно приобрести новый
+                      кожаный чехол MagSafe или кожаный чехол-конверт MagSafe тёмно-фиолетового цвета, силиконовый чехол
+                      цвета «Капри», «аметист», фисташкового или светло‑абрикосового цвета, а&nbsp;также кожаный
+                      чехол‑бумажник цвета «Аризона». Все чехлы доступны для&nbsp;заказа с&nbsp;сегодняшнего дня.</p>
+
+                    <p>«Линейка iPhone&nbsp;12&nbsp;— это самые популярные модели iPhone с&nbsp;индексом
+                      удовлетворённости покупателей более&nbsp;99%. Модель в&nbsp;свежем фиолетовом цвете выходит как
+                      раз весной и&nbsp;дополнит линейку ярких iPhone&nbsp;12. Мы&nbsp;уверены, что покупателям она
+                      понравится,&nbsp;— сказал Грег Джозвиак, старший вице‑президент Apple по&nbsp;международному
+                      маркетингу.&nbsp;— iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini теперь представлены в&nbsp;шести
+                      замечательных цветах, оснащены продвинутой системой двух камер, дисплеем
+                      Super&nbsp;Retina&nbsp;XDR и&nbsp;A14&nbsp;Bionic&nbsp;— самым быстрым процессором iPhone,
+                      а&nbsp;также отличаются повышенной прочностью, долго работают от&nbsp;аккумулятора
+                      и&nbsp;обеспечивают широчайшую поддержку сетей&nbsp;5G».</p>
+
+                    <div class="align-center media media--type-image media--view-mode-full">
+
+                      <div
+                        class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+                        <img
+                          src="./img/apple_iphone-12-spring21_hero_us_04202021_big.jpg.large_2x.jpg?itok=ApTmiyqN"
+                          width="915" height="854"
+                          alt="Apple представляет iPhone 12 и iPhone 12 mini в свежем фиолетовом цвете"></div>
+
+                    </div>
+                    <h2><strong>Впечатляющий дисплей и&nbsp;прочная передняя панель</strong></h2>
+
+                    <p>iPhone&nbsp;12 с&nbsp;диагональю 6,1&nbsp;дюйма и&nbsp;iPhone&nbsp;12&nbsp;mini с&nbsp;диагональю
+                      5,4&nbsp;дюйма не&nbsp;только прекрасно смотрятся, но и&nbsp;могут похвастаться исключительной
+                      прочностью.1&nbsp;А&nbsp;ещё iPhone&nbsp;12&nbsp;mini&nbsp;— это самый компактный смартфон
+                      с&nbsp;поддержкой&nbsp;5G. Все технические возможности iPhone&nbsp;12 собраны в&nbsp;небольшом
+                      корпусе этого смартфона с&nbsp;выразительным дисплеем на&nbsp;всю переднюю панель. В&nbsp;изящном
+                      дизайне iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini исчезли закруглённые края. Их&nbsp;корпуса
+                      производятся из&nbsp;алюминия, который используется в&nbsp;аэрокосмической отрасли.
+                      При&nbsp;создании передней панели Ceramic&nbsp;Shield используется высокотемпературная
+                      кристаллизация: в&nbsp;стеклянной матрице выращиваются керамические нанокристаллы. Поэтому она
+                      в&nbsp;четыре раза лучше защищает дисплей от&nbsp;повреждений в&nbsp;случае падения.2&nbsp;</p>
+
+                    <p>Дисплей Super&nbsp;Retina&nbsp;XDR на&nbsp;iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini
+                      занимает всю переднюю панель и&nbsp;обеспечивает непревзойдённую точность цветопередачи. Новый
+                      OLED‑дисплей с&nbsp;невероятной точностью передаёт яркие цвета, а&nbsp;его контрастность
+                      составляет 2&nbsp;000&nbsp;000:1&nbsp;— тем самым достигается правильная передача чёрного цвета.
+                      Поддержка формата&nbsp;HDR обеспечивает просмотр видео в&nbsp;высоком разрешении
+                      и&nbsp;возможность разглядеть на&nbsp;фото мельчайшие детали. А&nbsp;яркость в&nbsp;пиковом режиме
+                      у&nbsp;него почти в&nbsp;два раза выше, чем у&nbsp;iPhone&nbsp;11.&nbsp;</p>
+
+                    <p>Уровень защиты корпуса iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini от&nbsp;воды соответствует
+                      рейтингу&nbsp;IP68. Оба устройства выдерживают погружение на&nbsp;глубину до&nbsp;6&nbsp;метров
+                      длительностью до&nbsp;30&nbsp;минут и&nbsp;не&nbsp;пострадают, если случайно пролить на&nbsp;них
+                      кофе или газировку.</p>
+
+                    <div class="align-center media media--type-image media--view-mode-news-full">
+
+                      <div
+                        class="field field--name-field-media-image field--type-image field--label-hidden field__item">
+                        <img
+                          src="./img/apple_iphone-12-spring21_durable-design-display_us_04202021_Full-Bleed-Image.jpg.large_2x.jpg?itok=F54ILD3s"
+                          width="915" height="555"
+                          alt="Apple представляет iPhone 12 и iPhone 12 mini в свежем фиолетовом цвете"></div>
+
+                    </div>
+                    <h2><strong>Продвинутая система двух камер</strong></h2>
+
+                    <p>С&nbsp;процессором A14&nbsp;Bionic, который позволяет использовать широкие возможности
+                      вычислительной фотографии, и&nbsp;системой двух камер фото- и&nbsp;видеосъёмка
+                      на&nbsp;iPhone&nbsp;12 и&nbsp;iPhone&nbsp;12&nbsp;mini даёт ещё более впечатляющие результаты,
+                      а&nbsp;сам процесс стал ещё проще и&nbsp;удобнее. В&nbsp;систему входят сверхширокоугольная камера
+                      и&nbsp;новая широкоугольная с&nbsp;диафрагмой ƒ/1.6&nbsp;— самая быстрая на&nbsp;iPhone. Теперь
+                      широкоугольная камера способна улавливать на&nbsp;27% больше света, что позволяет ещё лучше
+                      снимать фото и&nbsp;видео при&nbsp;слабом освещении. Технология вычислительной фотографии выходит
+                      в&nbsp;обеих моделях iPhone&nbsp;12 на&nbsp;новый уровень. Ночной режим и&nbsp;более быстрая
+                      работа функции Deep&nbsp;Fusion теперь доступны на&nbsp;всех камерах&nbsp;— TrueDepth,
+                      широкоугольной и&nbsp;сверхширокоугольной,&nbsp;— так&nbsp;что удачные снимки можно делать
+                      в&nbsp;самых сложных условиях. С&nbsp;Ночным режимом фотографии получатся яркими
+                      и&nbsp;контрастными даже при&nbsp;слабом освещении, а&nbsp;Deep&nbsp;Fusion позволит запечатлеть
+                      самые разные фактуры и&nbsp;снизит уровень шума. Технология Smart&nbsp;HDR&nbsp;3 регулирует
+                      баланс белого, контрастность, насыщенность и&nbsp;детализацию поверхностей на&nbsp;фото
+                      с&nbsp;помощью машинного обучения, и&nbsp;результат получается неподражаемо реалистичным.</p>
+
+                    <p>iPhone&nbsp;12&nbsp;— первое устройство, с&nbsp;помощью которого можно снимать HDR‑видео
+                      в&nbsp;стандарте Dolby&nbsp;Vision. И&nbsp;не только снимать: видео Dolby&nbsp;Vision, сравнимые
+                      по&nbsp;качеству с&nbsp;работами профессиональных киностудий, можно также смотреть, монтировать
+                      и&nbsp;отправлять друзьям или выгружать в&nbsp;социальные сети.4&nbsp;Грейдинг в&nbsp;стандарт
+                      Dolby&nbsp;Vision осуществляется прямо в&nbsp;процессе видеосъёмки. Стандарт сохраняется
+                      и&nbsp;при&nbsp;монтаже в&nbsp;Фото, iMovie и&nbsp;Final
+                      Cut&nbsp;Pro.5&nbsp;А&nbsp;на&nbsp;впечатляющем дисплее Super&nbsp;Retina&nbsp;XDR результат
+                      выглядит ещё реалистичнее. Обе модели iPhone&nbsp;12 также отличаются улучшенной
+                      кинематографической стабилизацией видео. Среди других восхитительных возможностей&nbsp;— съёмка
+                      видео на&nbsp;фронтальную камеру в&nbsp;стандарте Dolby&nbsp;Vision и&nbsp;высокая чёткость видео
+                      «Таймлапс» в&nbsp;Ночном режиме с&nbsp;долгой выдержкой для&nbsp;эффектных следов светящихся
+                      объектов и&nbsp;ещё более впечатляющей съёмки с&nbsp;использованием штатива.</p>
+                  </div>
+
+                </div>
+                <div class="social-icons">
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <span class="nav-link index">
+                        Поделиться:
+                      </span>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#vk" rel="nofollow"
+                        onclick="window.open('https://vk.com/share.php?url='+ window.location.href +'')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="16.547" viewBox="0 0 29 16.547">
+                          <path
+                            d="M28.742,124.683a12.93,12.93,0,0,0-2.88-3.332c-2.429-2.255-2.1-1.889.823-5.788,1.782-2.375,2.494-3.825,2.271-4.445-.212-.591-1.523-.435-1.523-.435l-4.358.025a1,1,0,0,0-.564.1,1.227,1.227,0,0,0-.384.468,25.243,25.243,0,0,1-1.611,3.4c-1.941,3.3-2.719,3.471-3.036,3.266-.738-.477-.553-1.918-.553-2.94,0-3.2.484-4.528-.944-4.872a7.48,7.48,0,0,0-2.036-.2,9.414,9.414,0,0,0-3.618.37c-.5.243-.879.785-.645.816a1.954,1.954,0,0,1,1.287.647,4.2,4.2,0,0,1,.431,1.974s.257,3.761-.6,4.229c-.589.321-1.4-.334-3.127-3.326a27.9,27.9,0,0,1-1.557-3.227,1.287,1.287,0,0,0-.359-.484,1.807,1.807,0,0,0-.671-.27l-4.144.025s-.622.018-.85.288c-.2.241-.016.738-.016.738S3.323,119.3,7,123.124A9.954,9.954,0,0,0,14.19,126.4h1.733a1.461,1.461,0,0,0,.79-.346,1.262,1.262,0,0,0,.237-.761s-.034-2.326,1.046-2.668c1.064-.337,2.431,2.248,3.879,3.243a2.744,2.744,0,0,0,1.927.587l3.874-.054S29.7,126.276,28.742,124.683Z"
+                            transform="translate(0 -109.924)" fill="#131313"></path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#ok" rel="nofollow"
+                        onclick="window.open('https://connect.ok.ru/offer?url='+ window.location.href +'')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.198" height="24.584"
+                          viewBox="0 0 17.198 24.584">
+                          <g transform="translate(-76.922)">
+                            <g transform="translate(79.375)">
+                              <g transform="translate(0)">
+                                <path
+                                  d="M134.148,0a6.146,6.146,0,1,0,6.146,6.146A6.152,6.152,0,0,0,134.148,0Zm0,9.219a3.073,3.073,0,1,1,3.073-3.073A3.076,3.076,0,0,1,134.148,9.219Z"
+                                  transform="translate(-128.002 0)" fill="#131313"></path>
+                              </g>
+                            </g>
+                            <g transform="translate(76.922 11.671)">
+                              <g>
+                                <path
+                                  d="M93.67,243.515a1.535,1.535,0,0,0-2.173,0,8.463,8.463,0,0,1-11.952,0,1.537,1.537,0,0,0-2.173,2.174,11.454,11.454,0,0,0,6.833,3.285l-4.381,4.381A1.536,1.536,0,0,0,82,255.527L85.521,252l3.523,3.523a1.536,1.536,0,0,0,2.173-2.173l-4.381-4.381a11.453,11.453,0,0,0,6.833-3.285A1.538,1.538,0,0,0,93.67,243.515Z"
+                                  transform="translate(-76.922 -243.064)" fill="#131313"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#facebook" rel="nofollow"
+                        onclick="window.open('https://www.facebook.com/sharer.php?src=sp&amp;u='+ window.location.href +'')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12.001" height="24" viewBox="0 0 12.001 24">
+                          <path id="facebook"
+                            d="M16,3.985h2.191V.169A28.292,28.292,0,0,0,15,0C11.837,0,9.673,1.987,9.673,5.639V9H6.187v4.266H9.673V24h4.274V13.267h3.345L17.823,9H13.946V6.062c0-1.233.333-2.077,2.051-2.077Z"
+                            transform="translate(-6.187)" fill="#131313"></path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#twitter" rel="nofollow"
+                        onclick="window.open('https://twitter.com/intent/tweet?url='+ window.location.href +'')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21.589" height="17.669"
+                          viewBox="0 0 21.589 17.669">
+                          <path
+                            d="M8.054,17.67a18.525,18.525,0,0,1-2.861-.227,13.428,13.428,0,0,1-3.914-1.424L0,15.319l1.385-.455c1.514-.5,2.435-.807,3.575-1.29a4.755,4.755,0,0,1-2.445-2.833l-.322-.978.264.04a4.8,4.8,0,0,1-.6-.742,4.554,4.554,0,0,1-.773-2.708L1.144,5.5l.511.2a4.778,4.778,0,0,1-.463-1.3,4.939,4.939,0,0,1,.526-3.325L2.163.258l.6.715a10.958,10.958,0,0,0,7.1,4,4.246,4.246,0,0,1,.258-2.256A4.224,4.224,0,0,1,11.832.745,5.158,5.158,0,0,1,14.826.01a4.781,4.781,0,0,1,2.939,1.212A9.866,9.866,0,0,0,18.84.863c.236-.089.5-.19.838-.3L20.912.133l-.8,2.3c.053,0,.108-.008.165-.011l1.317-.06-.778,1.064c-.045.061-.056.078-.072.1-.063.095-.141.212-1.209,1.639a2.013,2.013,0,0,0-.376,1.31,12.4,12.4,0,0,1-.676,4.985,8.822,8.822,0,0,1-2.368,3.508,10.46,10.46,0,0,1-4.958,2.4,15.263,15.263,0,0,1-3.1.3Zm0,0"
+                            transform="translate(0 0)" fill="#131313"></path>
+                        </svg>
+
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <aside class="page--sidebar-second">
+              <div class="region region-sidebar-second">
+                <div class="views-element-container block block-views block-views-blocknews-block-popular"
+                  id="block-views-block-news-block-popular">
+
+                  <h2>Популярное</h2>
+
+                  <div
+                    class="view view-news view-id-news view-display-id-block_popular js-view-dom-id-45b98d809dc73442432a11f37c94a81c7e8afd8804ceb450dac79d47f0f99e5f">
+
+
+
+                    <div class="row">
+                      <div class="col-md-4 col-lg-12">
+                        <article role="article" class="node node--type-news node--view-mode-sidebar">
+                          <div class="node__content clearfix">
+                            <div
+                              class="field field--name-field-image-news field--type-entity-reference field--label-hidden field__item">
+                              <a href="/news/obnovlenie-ios-145-dobavlena-vozmozhnost-razblokirovat-iphone-pri-pomoschi-apple-watch"
+                                hreflang="ru"><img
+                                  src="./img/Apple_iOS-update-iphone12pro-watchseries6-unlocking-screen_042621.jpg.landing-big_2x.jpg?itok=ncYY26VS"
+                                  width="420" height="380"
+                                  alt="Обновление iOS 14.5: добавлена возможность разблокировать iPhone при помощи Apple Watch">
+
+                              </a>
+                            </div>
+                            <div
+                              class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+                              <div class="field__item"><a href="/news/novosti" hreflang="ru">Новости</a></div>
+                            </div>
+
+                          </div>
+                          <h3 class="node__title">
+                            <a href="/news/obnovlenie-ios-145-dobavlena-vozmozhnost-razblokirovat-iphone-pri-pomoschi-apple-watch"
+                              rel="bookmark"><span>Обновление iOS 14.5: добавлена возможность разблокировать iPhone при
+                                помощи Apple Watch</span>
+                            </a>
+                          </h3>
+                          <div class="node__date">
+                            25 апреля 2021
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-md-4 col-lg-12">
+                        <article role="article" class="node node--type-news node--view-mode-sidebar">
+                          <div class="node__content clearfix">
+                            <div
+                              class="field field--name-field-image-news field--type-entity-reference field--label-hidden field__item">
+                              <a href="/news/apple-predstavlyaet-novyy-ipad-pro-s-unikalnym-chipom-m1"
+                                hreflang="ru"><img
+                                  src="./img/apple_ipad-pro-spring21_hero_04202021_big.jpg.large_2x.jpg?itok=LFTubg-G"
+                                  width="420" height="380" alt="iPad Pro M1">
+
+                              </a>
+                            </div>
+                            <div
+                              class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+                              <div class="field__item"><a href="/news/novosti" hreflang="ru">Новости</a></div>
+                            </div>
+
+                          </div>
+                          <h3 class="node__title">
+                            <a href="/news/apple-predstavlyaet-novyy-ipad-pro-s-unikalnym-chipom-m1"
+                              rel="bookmark"><span>Apple представляет новый iPad Pro с уникальным чипом M1</span>
+                            </a>
+                          </h3>
+                          <div class="node__date">
+                            20 апреля 2021
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-md-4 col-lg-12">
+                        <article role="article" class="node node--type-news node--view-mode-sidebar">
+                          <div class="node__content clearfix">
+                            <div
+                              class="field field--name-field-image-news field--type-entity-reference field--label-hidden field__item">
+                              <a href="/news/apple-predstavlyaet-apple-tv-4k-novogo-pokoleniya" hreflang="ru"><img
+                                  src="./img/Apple_unveils-the-next-gen-of-AppleTV4K_042021_big.jpg.large_2x.jpg?itok=ukKbMeoG"
+                                  width="420" height="380" alt="Apple представляет Apple TV 4K нового поколения">
+
+                              </a>
+                            </div>
+                            <div
+                              class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+                              <div class="field__item"><a href="/news/novosti" hreflang="ru">Новости</a></div>
+                            </div>
+
+                          </div>
+                          <h3 class="node__title">
+                            <a href="/news/apple-predstavlyaet-apple-tv-4k-novogo-pokoleniya" rel="bookmark"><span>Apple
+                                представляет Apple TV 4K нового поколения</span>
+                            </a>
+                          </h3>
+                          <div class="node__date">
+                            20 апреля 2021
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-md-4 col-lg-12">
+                        <article role="article" class="node node--type-news node--view-mode-sidebar">
+                          <div class="node__content clearfix">
+                            <div
+                              class="field field--name-field-image-news field--type-entity-reference field--label-hidden field__item">
+                              <a href="/news/novyy-imac-vpechatlyaet-neobychnym-dizaynom" hreflang="ru"><img
+                                  src="./img/apple_new-imac-spring21_lifestyle01_04202021_big_carousel.jpg.large_2x.jpg?itok=-EwD_wtK"
+                                  width="420" height="380" alt="Новый iMac M1">
+
+                              </a>
+                            </div>
+                            <div
+                              class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+                              <div class="field__item"><a href="/news/novosti" hreflang="ru">Новости</a></div>
+                            </div>
+
+                          </div>
+                          <h3 class="node__title">
+                            <a href="/news/novyy-imac-vpechatlyaet-neobychnym-dizaynom" rel="bookmark"><span>Новый iMac
+                                впечатляет необычным дизайном.</span>
+                            </a>
+                          </h3>
+                          <div class="node__date">
+                            20 апреля 2021
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-md-4 col-lg-12">
+                        <article role="article" class="node node--type-news node--view-mode-sidebar">
+                          <div class="node__content clearfix">
+                            <div
+                              class="field field--name-field-image-news field--type-entity-reference field--label-hidden field__item">
+                              <a href="/news/apple-uvelichivaet-ispolzovanie-vozobnovlyaemykh-energoresursov-v-evrope"
+                                hreflang="ru"><img
+                                  src="./img/large-1.jpg?itok=yNJbB9Kk"
+                                  width="420" height="380"
+                                  alt="Apple увеличивает использование возобновляемых энергоресурсов в Европе">
+
+                              </a>
+                            </div>
+                            <div
+                              class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+                              <div class="field__item"><a href="/news/novosti" hreflang="ru">Новости</a></div>
+                            </div>
+
+                          </div>
+                          <h3 class="node__title">
+                            <a href="/news/apple-uvelichivaet-ispolzovanie-vozobnovlyaemykh-energoresursov-v-evrope"
+                              rel="bookmark"><span>Apple увеличивает использование возобновляемых энергоресурсов в
+                                Европе</span>
+                            </a>
+                          </h3>
+                          <div class="node__date">
+                            10 апреля 2021
+                          </div>
+                        </article>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+              </div>
+
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer--top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-first">
+              <nav role="navigation" aria-labelledby="block-main-menu-footer-menu" id="block-main-menu-footer"
+                class="block block-menu menu--main">
+
+                <h4 id="block-main-menu-footer-menu">Выбирайте лучшее</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="#">iPhone </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Apple Mac">Mac</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/apple-watch" title="Apple Watch">Watch</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/ipad/ipad-pro">iPad</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/apple-tv">TV</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/accessories">Аксессуары</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-second">
+              <nav role="navigation" aria-labelledby="block-services-menu-footer-menu" id="block-services-menu-footer"
+                class="block block-menu menu--services">
+
+                <h4 id="block-services-menu-footer-menu">Услуги</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="https://istore93.ru/service/rassrochka-i-kredit">Рассрочка и кредит</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/service/kommercheskaya-zamena">Коммерческая замена</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/service/servisnyy-centr">Сервисный центр</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="region region-footer-third">
+              <nav role="navigation" aria-labelledby="block-menu-footer-menu" id="block-menu-footer"
+                class="block block-menu menu--footer">
+
+                <h4 id="block-menu-footer-menu">iStore</h4>
+
+
+
+                <ul class="menu">
+                  <li>
+                    <a href="https://istore93.ru/about">О компании</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/stock">Акции</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/news">Новости</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/warranty">Гарантия</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/delivery">Доставка и
+                      оплата</a>
+                  </li>
+                  <li>
+                    <a href="#">Контакт</a>
+                  </li>
+                  <li>
+                    <a href="https://istore93.ru/privacy-policy">Политика
+                      конфиденциальности</a>
+                  </li>
+                </ul>
+
+
+
+              </nav>
+
+            </div>
+
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <h4>Контактная информация</h4>
+            <address>
+              <p>
+                <a href="tel:+79182410241" rel="nofollow">
+                  +7 (918) 241-0-241
+                </a>
+              </p>
+              <p>
+                <a href="mailto:infoistore93@gmail.com" rel="nofollow">
+                  infoistore93@gmail.com
+                </a>
+              </p>
+              <p>
+                г. Краснодар, ул. Северная, 624
+              </p>
+              <p>
+                ежедневно с 10:00 до 20:00
+              </p>
+            </address>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="logo logo--footer">
+              <img src="./img/logo-footer.svg" alt="iStore93">
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            Все самое интересное<br>в наших соц сетях
+            <ul class="social-icons social-icons--footer">
+              <li>
+                <a rel="nofollow" href="https://www.instagram.com/istore93/" target="_blank">
+                  <i class="flaticon-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a rel="nofollow" href="https://www.facebook.com/groups/istore93/" target="_blank">
+                  <i class="flaticon-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a rel="nofollow" href="https://vk.com/istore93krd" target="_blank">
+                  <i class="flaticon-vk"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <p><small>Все материалы данного сайта являются объектами авторского права (в том числе дизайн)
+                запрещается копирование, распространение (в том числе путем копирования на другие сайты и ресурсы в
+                Интернете) или любое иное использование информации или объектов без предварительного согласия
+                правообладателя.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer--bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9">
+            <p class="text-center text-lg-start">
+              Все права защищены и охраняются законом. 2011-2023 © iStore93
+            </p>
+          </div>
+          <!-- <div class="col-lg-3">
+            <a class="copyright-studio" rel="nofollow" href="https://www.asb-studio.ru/" target="_blank">
+              <span>сделано в</span>
+              <img alt="ASB Studio" title="ASB Studio" src="./img/asb.svg" style="height: 1.5rem;">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="region region-search-form">
+      <div
+        class="views-exposed-form block block-search-page block-views block-views-exposed-filter-blocksearch-page modal fade"
+        data-drupal-selector="views-exposed-form-search-page" id="block-search" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">
+                Поиск по сайту
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="https://istore93.ru/search" method="get" id="views-exposed-form-search-page"
+                accept-charset="UTF-8">
+                <div class="form--inline clearfix">
+                  <div class="js-form-item js-form-type-search-api-autocomplete form-item-search js-form-item-search">
+                    <label for="edit-search" class="form-label">
+                      Поиск
+                    </label>
+                    <input placeholder="Поиск по сайту" data-drupal-selector="edit-search" type="text" id="edit-search"
+                      name="search" value="" size="30" maxlength="128" class="form-control">
+
+                  </div>
+                  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper"
+                    id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit"
+                      id="edit-submit-search" value="Поиск" class="js-form-submit form-submit btn">
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="./js/1.js"></script>
+  <script src="./js/2.js"></script>
+  <script src="./js/3.js"></script>
+  <!-- подключаем эту библиотеку только на странице с контактами  -->
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=99d7675e-f984-459d-a854-2fe51340a298&lang=ru_RU"
+    type="text/javascript"></script>
+
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.show-details {
+  &__title {
+    margin: 0;
+    margin-bottom: 23px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ec008c;
+    display: block;
+    cursor: pointer;
+    max-width: max-content;
+  }
+
+  &__text {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  &__text.show {
+    height: initial;
+    visibility: initial;
+    opacity: 1;
+    transition: all 0.3s;
+  }
+}

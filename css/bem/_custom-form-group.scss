@@ -1,0 +1,149 @@
+.custom-form-group {
+  margin-bottom: 23px;
+  legend {
+    position: relative;
+
+    &.required:after {
+      content: "";
+      vertical-align: super;
+      display: inline-block;
+      background-image: url(../img/required.svg);
+      background-repeat: no-repeat;
+      background-size: 0.35rem 0.35rem;
+      -webkit-background-size: 0.35rem 0.35rem;
+      -moz-background-size: 0.35rem 0.35rem;
+      -o-background-size: 0.35rem 0.35rem;
+      width: 0.35rem;
+      height: 0.35rem;
+    }
+  }
+  // &:not(:last-of-type) {
+  //   margin-bottom: 23px;
+  // }
+  label {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 18px;
+    line-height: 1;
+
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+      top: -5px;
+      left: -5px;
+      bottom: -5px;
+      right: -5px;
+      border: 2px solid #ec008c;
+      border-radius: 4px;
+      opacity: 0;
+      transition: all 0.3s;
+    }
+
+    img {
+      pointer-events: none;
+    }
+  }
+
+  input[type="radio"]:checked + label {
+    &:before {
+      opacity: 1;
+    }
+  }
+
+  .custom-form-group__grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, auto);
+    max-width: max-content;
+  }
+
+  &--colors {
+    label {
+      padding: 0;
+      &:before {
+        border-radius: 50%;
+      }
+    }
+  }
+  &--memory {
+  }
+}
+
+.custom-form-group--payment {
+  label {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 18px;
+    line-height: 1;
+    background: #ffffff;
+
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border: 2px solid #e8e8ed;
+      border-radius: 4px;
+      opacity: 1;
+      transition: all 0.3s;
+    }
+
+    img {
+      pointer-events: none;
+    }
+  }
+
+  input[type="radio"]:checked + label {
+    &:before {
+      border: 2px solid #ec008c;
+    }
+  }
+}
+
+.custom-form-group--method {
+  .custom-form-group__grid {
+    grid-template-columns: repeat(4, auto) !important;
+  }
+
+  label {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 18px;
+    line-height: 1;
+    background: #ffffff;
+
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border: 2px solid #e8e8ed;
+      border-radius: 4px;
+      opacity: 1;
+      transition: all 0.3s;
+    }
+
+    img {
+      pointer-events: none;
+    }
+  }
+
+  input[type="radio"]:checked + label {
+    &:before {
+      border: 2px solid #ec008c;
+    }
+  }
+}
